@@ -1,0 +1,6 @@
+var day = moment(1318781876406);
+moment(1318781876406).format()
+
+// independent browser's timezone 
+moment().toISOString()
+moment().add(7,"hours").toISOString()
